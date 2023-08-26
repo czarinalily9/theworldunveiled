@@ -7,8 +7,22 @@
 * Twitter: https://twitter.com/Untree_co
 * Facebook: https://web.facebook.com/Untree.co/
 */
+
+@face-font{
+    font-family: 'Molen Surplus', serif;
+    src: url(fonts/Molen Surplus.ttf);
+}
+@face-font{
+    font-family: 'Coves Light', serif;
+    src: url(fonts/Coves Light.ttf);
+}
+@face-font{
+    font-family: 'Times Roman', serif;
+    src: url(fonts/Times New Roman/times new roman.ttf);
+}
+
 body {
-  font-family: "Crimson Text", serif;
+  font-family: 'DM Sans', 'Molen Surplus', 'Times Roman', serif, sans-serif;
   line-height: 1.5;
   font-size: 15px;
   color: #000000;
@@ -40,9 +54,16 @@ a {
     color: #000;
     text-decoration: none; }
 
-h1, h2, h3, h4, h5 {
+h1,h2{
+    color: #000;
+  font-family: 'Molen Surplus', serif; 
+    letter-spacing: 0.1rem;
+}
+
+h3, h4, h5 {
   color: #000;
-  font-family: "Playfair Display", serif; }
+  font-family: 'DM Sans', sans-serif; 
+}
 
 .text-primary {
   color: #000 !important; }
@@ -53,13 +74,20 @@ h1, h2, h3, h4, h5 {
 a.text-primary {
   color: #000 !important; }
   a.text-primary:hover {
-    color: #000 !important; }
+    color: #000 !important;
+      font-family: 'Times Roman', serif; 
+}
 
 .bg-primary {
   background-color: #000 !important; }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-  font-family: "Playfair Display", serif; }
+h1,.h1,h2{
+    color: #000;
+  font-family: 'Molen Surplus', serif; 
+    letter-spacing: 0.1rem;
+}
+ .h2, h3, .h3, h4, .h4 {
+  font-family: 'DM Sans', sans-serif; }
 
 .btn {
   padding-top: 12px;
@@ -154,7 +182,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 .logo {
   font-size: 25px;
-  font-family: "Playfair Display", serif;
+  font-family: "Molen Surplus", serif;
   font-weight: bold; }
   .logo a {
     color: #000; }
@@ -671,11 +699,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       -ms-transform: scale(1);
       transform: scale(1); }
   .product h3 {
-    font-family: "Playfair Display", serif;
-    font-size: 18px; }
+    font-family: 'Molen Surplus', serif;
+    font-size: 25px; }
   .product strong {
-    font-weight: 700;
-    font-size: 20px; }
+    font-weight: 600;
+    font-size: 10px; }
   .product:hover img {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -683,7 +711,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   .product > div {
     padding: 30px; }
     .product > div p {
-      color: #7a7a7a; }
+      color: #000000; }
     .product > div *:last-child {
       margin-bottom: 0; }
 
@@ -699,7 +727,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   text-transform: uppercase; }
 
 .serif {
-  font-family: "Playfair Display", serif; }
+  font-family: "Molen Surplus", serif; }
 
 .section-4 .custom-prev-v2, .section-4 .custom-next-v2 {
   font-size: 14px;
@@ -1222,7 +1250,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   .article .share {
     top: 20px; }
     .article .share h3 {
-      font-family: "Playfair Display", serif;
+      font-family: "Molen Surplus", serif;
       font-size: 12px; }
       @media (max-width: 991.98px) {
         .article .share h3 {
