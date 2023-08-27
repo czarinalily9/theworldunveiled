@@ -10,15 +10,15 @@
 
 @face-font{
     font-family: 'Molen Surplus', serif;
-    src: url(fonts/Molen Surplus.ttf);
+    src: url(../fonts/Molen Surplus.ttf);
 }
 @face-font{
     font-family: 'Coves Light', serif;
-    src: url(fonts/Coves Light.ttf);
+    src: url(../fonts/Coves Light.ttf);
 }
 @face-font{
     font-family: 'Times Roman', serif;
-    src: url(fonts/Times New Roman/times new roman.ttf);
+    src: url(../fonts/Times New Roman/times new roman.ttf);
 }
 
 body {
