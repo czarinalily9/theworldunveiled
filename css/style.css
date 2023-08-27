@@ -186,7 +186,7 @@ h1,.h1,h2{
 
 .logo {
   font-size: 25px;
-  font-family: "Molen Surplus", serif;
+  font-family: 'Molen Surplus', serif;
   font-weight: bold; }
   .logo a {
     color: #000; }
@@ -731,7 +731,7 @@ h1,.h1,h2{
   text-transform: uppercase; }
 
 .serif {
-  font-family: "Molen Surplus", serif; }
+  font-family: 'Molen Surplus', serif; }
 
 .section-4 .custom-prev-v2, .section-4 .custom-next-v2 {
   font-size: 14px;
@@ -1254,7 +1254,7 @@ h1,.h1,h2{
   .article .share {
     top: 20px; }
     .article .share h3 {
-      font-family: "Molen Surplus", serif;
+      font-family: 'Molen Surplus', serif;
       font-size: 12px; }
       @media (max-width: 991.98px) {
         .article .share h3 {
