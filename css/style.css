@@ -8,9 +8,13 @@
 * Facebook: https://web.facebook.com/Untree.co/
 */
 
-@face-font{
-    font-family: 'Molen Surplus', serif;
-    src: url(../fonts/Molen Surplus.ttf);
+@font-face {
+    font-family: 'molensurplus';
+    src: url('fonts/Molen-Surplus-Webfont/molen_surplus-webfont.woff2') format('woff2'),
+         url('fonts/Molen-Surplus-Webfont/molen_surplus-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 @face-font{
     font-family: 'Coves Light', serif;
