@@ -14,15 +14,14 @@
          url('fonts/Molen-Surplus-Webfont/molen_surplus-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-@face-font{
+@font-face {
     font-family: 'Coves Light', serif;
-    src: url('fonts/Coves Light.ttf');
+    src: url('/fonts/Coves Light.ttf');
 }
-@face-font{
+@font-face { 
     font-family: 'Times Roman', serif;
-    src: url('fonts/Times New Roman/times new roman.ttf');
+    src: url('/fonts/Times New Roman/times new roman.ttf');
 }
 
 body {
