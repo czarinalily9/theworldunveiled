@@ -10,19 +10,15 @@
 
 @font-face {
   font-family: 'Molen Surplus';
-  src: url('fonts/Molen-Surplus-Webfont/Molen Surplus.woff2') format('woff2'),
-       url('fonts/Molen-Surplus-Webfont/Molen Surplus.woff') format('woff');
+  src: url('../fonts/Molen-Surplus-Webfont/Molen Surplus.woff2') format('woff2'),
+       url('../fonts/Molen-Surplus-Webfont/Molen Surplus.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: 'Coves Light', serif;
-  src: url('/fonts/Coves Light.ttf');
-}
 @font-face { 
   font-family: 'Times Roman', serif;
-  src: url('/fonts/Times New Roman/times new roman.woff2')format('woff2'),
-  url('/fonts/Times New Roman/times new roman.woff2') format('woff');
+  src: url('../fonts/Times New Roman/times new roman.woff2') format('woff2'),
+  url('../fonts/Times New Roman/times new roman.woff') format('woff2');
 }
 
 body {
@@ -620,33 +616,7 @@ h1,.h1,h2{
     .site-section, .section, .section-2, .section-4 {
       padding: 50px 0; } }
 
-.lines-wrap {
-  position: fixed;
-  z-index: -1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden; }
-  @media (max-width: 767.98px) {
-    .lines-wrap {
-      display: none; } }
-  .lines-wrap .lines-inner {
-    position: absolute;
-    width: 1140px;
-    left: 50%;
-    margin-left: -570px;
-    top: 0;
-    height: 100%;
-    border-left: 1px solid #DDDBCF;
-    border-right: 1px solid #DDDBCF; }
-    .lines-wrap .lines-inner .lines {
-      position: absolute;
-      left: 33.333333%;
-      right: 33.333333%;
-      height: 100%;
-      border-left: 1px solid #DDDBCF;
-      border-right: 1px solid #DDDBCF; }
+/*line wrap*/
 
 .section-1 {
   padding: 100px 0; }
