@@ -14,15 +14,14 @@
          url('fonts/Molen-Surplus-Webfont/molen_surplus-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-@face-font{
+@font-face {
     font-family: 'Coves Light', serif;
-    src: url('fonts/Coves Light.ttf');
+    src: url('/fonts/Coves Light.ttf');
 }
-@face-font{
+@font-face { 
     font-family: 'Times Roman', serif;
-    src: url('fonts/Times New Roman/times new roman.ttf');
+    src: url('/fonts/Times New Roman/times new roman.ttf');
 }
 
 body {
@@ -186,7 +185,7 @@ h1,.h1,h2{
 
 .logo {
   font-size: 25px;
-  font-family: 'Molen Surplus', serif;
+  font-family: "Molen Surplus", serif;
   font-weight: bold; }
   .logo a {
     color: #000; }
@@ -566,17 +565,21 @@ h1,.h1,h2{
 .burger.active:before, .burger.active:after {
   top: 40%; }
 
-.burger.active:before {
-  -webkit-transform: rotate(45deg);
+  .burger.active:before {
+    transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5);
   /*for IE*/ }
 
-.burger.active:after {
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=-5);
-  /*for IE*/ }
+  .burger.active:before {
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+    -webkit-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  }
 
 .burger:focus {
   outline: none; }
@@ -731,7 +734,7 @@ h1,.h1,h2{
   text-transform: uppercase; }
 
 .serif {
-  font-family: 'Molen Surplus', serif; }
+  font-family: "Molen Surplus", serif; }
 
 .section-4 .custom-prev-v2, .section-4 .custom-next-v2 {
   font-size: 14px;
@@ -785,12 +788,11 @@ h1,.h1,h2{
   font-size: 16px;
   line-height: 1.2; }
 
-.image-stack-v2 {
-  display: -ms-grid;
-  display: grid;
-  position: relative;
-  -ms-grid-columns: (1fr)[12];
-  grid-template-columns: repeat(12, 1fr); }
+  .image-stack-v2 {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(12, 1fr);
+  }
   .image-stack-v2 .image-stack__item--bottom {
     grid-column: 4 / -1;
     -ms-grid-row: 1;
@@ -1254,7 +1256,7 @@ h1,.h1,h2{
   .article .share {
     top: 20px; }
     .article .share h3 {
-      font-family: 'Molen Surplus', serif;
+      font-family: "Molen Surplus", serif;
       font-size: 12px; }
       @media (max-width: 991.98px) {
         .article .share h3 {
