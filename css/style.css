@@ -9,19 +9,19 @@
 */
 
 @font-face {
-    font-family: 'Molen Surplus';
-    src: url('fonts/Molen-Surplus-Webfont/molen_surplus-webfont.woff2') format('woff2'),
-         url('fonts/Molen-Surplus-Webfont/molen_surplus-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Molen Surplus';
+  src: url('fonts/Molen-Surplus-Webfont/molen_surplus-webfont.woff2') format('woff2'),
+       url('fonts/Molen-Surplus-Webfont/molen_surplus-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-    font-family: 'Coves Light', serif;
-    src: url('/fonts/Coves Light.ttf');
+  font-family: 'Coves Light', serif;
+  src: url('/fonts/Coves Light.ttf');
 }
 @font-face { 
-    font-family: 'Times Roman', serif;
-    src: url('/fonts/Times New Roman/times new roman.ttf');
+  font-family: 'Times Roman', serif;
+  src: url('/fonts/Times New Roman/times new roman.ttf');
 }
 
 body {
@@ -49,6 +49,7 @@ body {
     visibility: visible; }
 
 a {
+   font-family: 'DM Sans', sans-serif;
   color: #000;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -56,6 +57,8 @@ a {
   a:hover {
     color: #000;
     text-decoration: none; }
+
+
 
 h1,h2{
     color: #000;
@@ -571,15 +574,12 @@ h1,.h1,h2{
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5);
   /*for IE*/ }
 
-  .burger.active:before {
-    transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-    -webkit-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  .burger.active:after {
+    transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=-5);
   }
+
 
 .burger:focus {
   outline: none; }
@@ -591,7 +591,8 @@ h1,.h1,h2{
   .custom-hero .hero-heading {
     font-size: 60px;
     line-height: 0;
-    font-weight: bold; }
+    font-weight: bold; 
+}
     @media (max-width: 991.98px) {
       .custom-hero .hero-heading {
         font-size: 40px; } }
@@ -848,6 +849,7 @@ h1,.h1,h2{
     box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.2); }
 
 /*--------- Start Portfolio Area -------------*/
+
 .portfolio-area .primary-btn {
   color: #ffffff;
   background-color: #000;
