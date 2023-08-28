@@ -10,8 +10,8 @@
 
 @font-face {
   font-family: 'Molen Surplus';
-  src: url('fonts/Molen-Surplus-Webfont/molen_surplus-webfont.woff2') format('woff2'),
-       url('fonts/Molen-Surplus-Webfont/molen_surplus-webfont.woff') format('woff');
+  src: url('fonts/Molen-Surplus-Webfont/Molen Surplus.woff2') format('woff2'),
+       url('fonts/Molen-Surplus-Webfont/Molen Surplus.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -21,7 +21,8 @@
 }
 @font-face { 
   font-family: 'Times Roman', serif;
-  src: url('/fonts/Times New Roman/times new roman.ttf');
+  src: url('/fonts/Times New Roman/times new roman.woff2')format('woff2'),
+  url('/fonts/Times New Roman/times new roman.woff2') format('woff');
 }
 
 body {
