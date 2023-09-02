@@ -8,25 +8,25 @@
 * Facebook: https://web.facebook.com/Untree.co/
 */
 
-@font-face {
-  font-family: 'Molen Surplus';
-  src: url('../fonts/Molen-Surplus-Webfont/Molen Surplus.woff2') format('woff2'),
-       url('../fonts/Molen-Surplus-Webfont/Molen Surplus.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 @font-face { 
   font-family: 'Times Roman', serif;
   src: url('../fonts/Times New Roman/times new roman.woff2') format('woff2'),
   url('../fonts/Times New Roman/times new roman.woff') format('woff2');
 }
 
+
+
 body {
-  font-family: 'DM Sans', 'Molen Surplus', 'Times Roman', serif, sans-serif;
+  font-family: 'DM Sans', 'Playfair Display', 'Times Roman', serif, sans-serif;
   line-height: 1.5;
   font-size: 15px;
   color: #000000;
-  background: #E8E5DE; }
+  background-image: url('../images/Desktop\ -\ 1.png');
+    background-position: center center;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; }
   body:before {
     content: "";
     position: fixed;
@@ -55,18 +55,15 @@ a {
     color: #000;
     text-decoration: none; }
 
-
-
-h1,h2{
-    color: #000;
-  font-family: 'Molen Surplus', serif; 
-    letter-spacing: 0.1rem;
-}
-
-h3, h4, h5 {
+h1, h2{
+      color: #000;
+      font-family: 'Playfair Display', serif;
+  }
+  
+  h3, h4, h5 {
   color: #000;
-  font-family: 'DM Sans', sans-serif; 
-}
+  font-family: 'DM Sans', sans-serif;; 
+  }
 
 .text-primary {
   color: #000 !important; }
@@ -84,12 +81,11 @@ a.text-primary {
 .bg-primary {
   background-color: #000 !important; }
 
-h1,.h1,h2{
+  h1,.h1{
     color: #000;
-  font-family: 'Molen Surplus', serif; 
-    letter-spacing: 0.1rem;
-}
- .h2, h3, .h3, h4, .h4 {
+    font-family: 'Playfair Display', serif;
+  }
+  .h2, h3, .h3, h4, .h4 {
   font-family: 'DM Sans', sans-serif; }
 
 .btn {
@@ -184,9 +180,9 @@ h1,.h1,h2{
   position: relative; }
 
 .logo {
-  font-size: 25px;
-  font-family: "Molen Surplus", serif;
-  font-weight: bold; }
+  height: 50px;
+  display: flex;
+  justify-content: flex-start; }
   .logo a {
     color: #000; }
 
@@ -588,11 +584,12 @@ h1,.h1,h2{
   .custom-hero .hero-heading {
     font-size: 60px;
     line-height: 0;
-    font-weight: bold; 
+    font-weight: 600;
+    font-style: italic;
 }
     @media (max-width: 991.98px) {
       .custom-hero .hero-heading {
-        font-size: 40px; } }
+        font-size: 60px; } }
     .custom-hero .hero-heading > span {
       display: inline-block; }
       .custom-hero .hero-heading > span > span {
@@ -678,7 +675,7 @@ h1,.h1,h2{
       -ms-transform: scale(1);
       transform: scale(1); }
   .product h3 {
-    font-family: 'Molen Surplus', serif;
+    font-family: 'Playfair Display', sans-serif;
     font-size: 25px; }
   .product strong {
     font-weight: 600;
@@ -706,7 +703,7 @@ h1,.h1,h2{
   text-transform: uppercase; }
 
 .serif {
-  font-family: "Molen Surplus", serif; }
+  font-family: 'Playfair Display', sans-serif;}
 
 .section-4 .custom-prev-v2, .section-4 .custom-next-v2 {
   font-size: 14px;
@@ -1229,7 +1226,7 @@ h1,.h1,h2{
   .article .share {
     top: 20px; }
     .article .share h3 {
-      font-family: "Molen Surplus", serif;
+      font-family: 'Playfair Display', sans-serif;
       font-size: 12px; }
       @media (max-width: 991.98px) {
         .article .share h3 {
