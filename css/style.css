@@ -608,7 +608,7 @@ a.text-primary {
     font-size: 18px; }
 
 .site-section, .section, .section-2, .section-4 {
-  padding: 100px 0; }
+  padding: 50px 0; }
   @media (max-width: 991.98px) {
     .site-section, .section, .section-2, .section-4 {
       padding: 50px 0; } }
@@ -1366,6 +1366,8 @@ a.text-primary {
       border: 1px solid #000000; }
   .custom-pagination li.active a {
     border: 1px solid #000000; }
+
+
 
 .custom-accordion .accordion-item {
   background: transparent;
