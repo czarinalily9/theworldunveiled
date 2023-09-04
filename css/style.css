@@ -16,6 +16,7 @@
 
 
 
+
 body {
   font-family: 'DM Sans', 'Playfair Display', 'Times Roman', serif, sans-serif;
   line-height: 1.5;
@@ -44,6 +45,8 @@ body {
   body.offcanvas-menu:before {
     opacity: 1;
     visibility: visible; }
+
+
 
 a {
    font-family: 'DM Sans', sans-serif;
@@ -662,6 +665,72 @@ a.text-primary {
 .figure-2 {
   margin-top: -60px; }
 
+/* buttons */
+.readmore {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: .2rem;
+  padding: 10px 0;
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+}
+
+.readmore:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #000;
+  bottom: 0;
+  width: 0%;
+  -webkit-transition: .3s width ease-in-out;
+  -o-transition: .3s width ease-in-out;
+  transition: .3s width ease-in-out;
+}
+
+.readmore:hover {
+  color: #000;
+}
+
+.readmore:hover:before {
+  width: 100%;
+}
+
+.readmore.dark {
+  color: #000;
+}
+
+.readmore.dark:before {
+  background: #000;
+}
+
+.readmore.dark:hover {
+  color: #000;
+}
+
+.readmore.primary {
+  color: #ff896b;
+}
+
+.readmore.primary:before {
+  background: #ff896b;
+}
+
+.readmore.primary:hover {
+  color: #ff896b;
+}
+
+.readmore.reverse:before {
+  width: 100%;
+}
+
+.readmore.reverse:hover:before {
+  width: 0;
+}
+
   
 .blog_entry {
   -webkit-transition: .3s all ease;
@@ -816,15 +885,21 @@ a.text-primary {
     width: 100%;
     display: block; }
 
+    .media-29191 .media-29191-icon img {
+      width: 50px;
+      margin-bottom: 30px;
+    }
+
 .feature-v3 h3 {
-  font-size: 18px; }
+  font-family:'Playfair Display';
+  font-size: 24px; }
 
 .feature-v3 .wrap-icon {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 60px;
   flex: 0 0 60px;
   margin-bottom: 10px; }
-  .feature-v3 .wrap-icon i {
+  .feature-v3 .wrap-icon {
     font-size: 40px; }
 
 /*--------- Start Portfolio Area -------------*/
