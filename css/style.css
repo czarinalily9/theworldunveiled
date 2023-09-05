@@ -24,7 +24,7 @@ body {
   color: #000000;
   background-image: url('../images/Desktop\ -\ 1.png');
     background-position: left bottom;
-    
+
 
     background-repeat: no-repeat;
     background-attachment:fixed;
@@ -183,8 +183,10 @@ a.text-primary {
 .position-relative {
   position: relative; }
 
+  
+
 .logo {
-  height: 65px;
+  height: 60px;
   display: flex;
   justify-content: flex-start; }
   .logo a {
@@ -542,7 +544,9 @@ a.text-primary {
   width: 28px;
   height: 32px;
   cursor: pointer;
-  position: relative; }
+  position: relative;
+  margin-top: 16px;
+}
 
 .burger:before, .burger span, .burger:after {
   width: 100%;
