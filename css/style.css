@@ -604,8 +604,8 @@ a.text-primary {
   outline: none; }
 
 .custom-hero {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 160px;
+  padding-bottom: 60px;
   text-align: center; }
   .custom-hero .hero-heading {
     font-size: 60px;
@@ -962,11 +962,6 @@ a.text-primary {
       width: 50px;
       margin-bottom: 30px;
     }
-
-.feature-v3 {
-  padding-top: 30px;
-}
-
  
 .feature-v3 h3 {
   font-family:'Playfair Display';
