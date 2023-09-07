@@ -609,7 +609,7 @@ a.text-primary {
 
 .custom-hero {
   padding-top: 160px;
-  padding-bottom: 50px;
+  padding-bottom:40px;
   text-align: center; }
   .custom-hero .hero-heading {
     font-size: 60px;
@@ -639,12 +639,11 @@ a.text-primary {
   .custom-hero .sub-text {
     font-size: 18px; }
 
-.site-section, .section, .section-2, .section-4 {
+.site-section, .section, .section-2, .section-4 .subheading {
   padding: 50px 0; }
   @media (max-width: 991.98px) {
     .site-section, .section, .section-2, .section-4 {
       padding: 65px 0; } }
-
 
 
 /*line wrap*/
@@ -970,6 +969,7 @@ a.text-primary {
       width: 50px;
       margin-bottom: 30px;
     }
+
  
 .feature-v3 h3 {
   font-family:'Playfair Display';
@@ -986,86 +986,23 @@ a.text-primary {
 
 /*--------- Start Portfolio Area -------------*/
 
-.portfolio-area .primary-btn {
-  color: #ffffff;
-  background-color: #000;
-  margin-left: auto;
-  margin-right: auto; }
-
-.portfolio-area .filters {
-  text-align: center; }
-
-.portfolio-area .filters ul {
-  padding: 0; }
-
-.portfolio-area .filters ul li {
-  list-style: none;
+.category {
   display: inline-block;
-  padding: 18px 15px;
-  cursor: pointer;
-  position: relative;
-  text-transform: uppercase;
-  color: #000000;
-  font-size: 12px;
-  font-weight: 500; }
-  @media (max-width: 736px) {
-    .portfolio-area .filters ul li {
-      padding: 6px 6px; } }
+  padding: 10px;
+  text-decoration: none !important; }
+  .category, .category h3{
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+  .category h3 {
+    font-family: "Playfair Display", sans-serif;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1;
+    color: #000000; }
+    .category:hover h3, .category:hover span {
+      color: #ffffff; }
 
-.portfolio-area .filters ul li:after {
-  content: "";
-  display: block;
-  width: calc(0% - 60px);
-  position: absolute;
-  height: 2px;
-  background: #333;
-  -webkit-transition: width 350ms ease-out;
-  -o-transition: width 350ms ease-out;
-  transition: width 350ms ease-out; }
-
-.portfolio-area .filters ul li:hover:after {
-  width: calc(100% - 60px);
-  -webkit-transition: width 350ms ease-out;
-  -o-transition: width 350ms ease-out;
-  transition: width 350ms ease-out; }
-
-.portfolio-area .filters ul li.active {
-  color: #000; }
-
-.portfolio-area .filters-content {
-  margin-top: 50px; }
-
-.portfolio-area .filters-content .show {
-  opacity: 1;
-  visibility: visible;
-  -webkit-transition: all 350ms;
-  -o-transition: all 350ms;
-  transition: all 350ms; }
-
-.portfolio-area .filters-content .hide {
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: all 350ms;
-  -o-transition: all 350ms;
-  transition: all 350ms; }
-
-.portfolio-area .filters-content .item {
-  text-align: center;
-  cursor: pointer;
-  margin-bottom: 30px; }
-
-.portfolio-area .filters-content .item img {
-  border-radius: 10px; }
-
-.portfolio-area .filters-content .p-inner {
-  padding: 20px 0px;
-  text-align: center; }
-
-.portfolio-area .filters-content .item .p-inner .cat {
-  font-size: 13px; }
-
-.portfolio-area .filters-content .item img {
-  width: 100%; }
 
 .image {
   opacity: 1;
@@ -1685,14 +1622,21 @@ a.text-primary {
   .social-icons li:first-child a {
     padding-left: 0; }
 
-.social-icons.light li a {
+.social-icons.trans li a {
+  margin-top: 20px;
+  padding-top: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
   color: #000000;
-  display: inline-block;
   width: 40px;
   height: 40px;
   position: relative;
-  border-radius: 50%;
-  background: #f8f9fa; }
+  border-radius: 100%;
+  background: transparent;}
 
 .video-wrap {
   position: relative; }
@@ -1816,8 +1760,8 @@ a.text-primary {
           color: #000; }
   .site-footer .copyright {
     position: relative;
-    padding-top: 40px;
-    margin-top: 40px; }
+    padding: 25px;
+  }
     .site-footer .copyright:before {
       top: 0;
       position: absolute;
@@ -1826,3 +1770,7 @@ a.text-primary {
       content: "";
       height: 1px;
       background: #000000; }
+    .copyright p{
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+    }
