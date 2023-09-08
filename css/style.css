@@ -645,6 +645,9 @@ a.text-primary {
     .site-section, .section, .section-2, .section-4 {
       padding: 65px 0; } }
 
+        @media (max-width: 991.98px) {
+          .section-opacity .img-wrap .img {
+            margin-top: 0; } }
 
 /*line wrap*/
 
@@ -1137,6 +1140,109 @@ a.text-primary {
     font-size: 18px; }
   .isotope-card .contents .cat {
     color: #b3b3b3; }
+
+    .testimonial-wrap .owl-stage-outer {
+      padding-top: 5rem;
+      padding-bottom: 7rem; }
+    
+    .testimonial-v1 {
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #000000;
+      -webkit-transition: .3s all ease;
+      -o-transition: .3s all ease;
+      transition: .3s all ease;
+      position: relative;
+      border-radius: 10px; }
+      .testimonial-v1 img {
+        width: 80px !important;
+        border-radius: 50%;
+        margin: 0 auto 20px auto;
+        margin-top: -70px; }
+      .testimonial-v1 h3 {
+        padding: 0px;
+        font-size: 16px;
+        font-weight: 700;
+        color: #000000;
+        line-height: 1; }
+      .testimonial-v1 p {
+        font-size: 14px; }
+      .testimonial-v1 .caption {
+        font-size: 13px; }
+      .testimonial-v1:hover {
+        border-color: #0389ff; }
+        .testimonials-v2 {
+          padding: 70px 0; }
+          .testimonials-v2 .owl-dots {
+            bottom: -40px !important;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%); }
+        
+        .testimonial-v2 {
+          text-align: center;
+      padding: 20px;
+      border: 1px solid #000000;
+      -webkit-transition: .3s all ease;
+      -o-transition: .3s all ease;
+      transition: .3s all ease;
+      position: relative;
+      border-radius: 10px; }
+          .testimonial-v2 .author .author-pic {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 40px;
+            flex: 0 0 40px;
+            margin-right: 20px; }
+            .testimonial-v2 .author .author-pic img {
+              border-radius: 50%; }
+          .testimonial-v2 .author .author-name h3 {
+            font-size: 16px !important;
+            color: #000000;
+            margin: 0; }
+          .testimonial-v2 .author .author-name span {
+            font-size: 13px; }
+
+  .owl-3-slider .owl-nav, .single-slider .owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+  @media (max-width: 767.98px) {
+    .owl-3-slider .owl-nav, .single-slider .owl-nav {
+      display: none; } }
+  .owl-3-slider .owl-nav .owl-next, .owl-3-slider .owl-nav .owl-prev, .single-slider .owl-nav .owl-next, .single-slider .owl-nav .owl-prev {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+    .owl-3-slider .owl-nav .owl-next span, .owl-3-slider .owl-nav .owl-prev span, .single-slider .owl-nav .owl-next span, .single-slider .owl-nav .owl-prev span {
+      font-size: 1.2rem; }
+  .owl-3-slider .owl-nav .owl-prev, .single-slider .owl-nav .owl-prev {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    left: -30px; }
+    .owl-3-slider .owl-nav .owl-prev:hover, .single-slider .owl-nav .owl-prev:hover {
+      left: -35px;
+      color: #0389ff; }
+  .owl-3-slider .owl-nav .owl-next, .single-slider .owl-nav .owl-next {
+    right: -30px;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    .owl-3-slider .owl-nav .owl-next span, .single-slider .owl-nav .owl-next span {
+      display: block;
+      -webkit-transform: rotate(-180deg);
+      -ms-transform: rotate(-180deg);
+      transform: rotate(-180deg); }
+    .owl-3-slider .owl-nav .owl-next:hover, .single-slider .owl-nav .owl-next:hover {
+      right: -35px;
+      color: #0389ff; }
+
 
 .no-nav .owl-nav {
   display: none; }
