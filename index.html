@@ -464,9 +464,9 @@
               <h3 class="mb-3 text-black">JOIN OUR NEWSLETTER</h3>
               <p></p>
             <p>We will release our official monthly newsletters on either the 30th or the 31st of the month, so stay tuned and follow our social media platforms.</p>
-            <form action="#">
-              <input type="email" class="form-control mb-2" placeholder="Enter email">
-              <input type="submit" value="Subscribe" class="btn btn-primary btn-block">
+            <form name="submit-to-google-sheet">
+              <input type="email" class="form-control mb-2" placeholder="Enter email" name="email" >
+              <input type="submit" value="Subscribe" class="btn btn-primary btn-block" >
             </form>
               </div>
             </div>
@@ -490,6 +490,21 @@
       <span class="sr-only">Loading...</span>
     </div>
   </div>
+
+<script>
+			const scriptURL = 'https://script.google.com/macros/s/AKfycbxbuhomBjZbn2s1sPHvl1AjS0s9GuZqY2wG9GDich88E55OCvdyTtPrCDKKzjy2vW-i/exec'
+			const form = document.forms['submit-to-google-sheet']
+		  
+			form.addEventListener('submit', e => {
+			  e.preventDefault()
+			  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+				.then(response => alert("Thank you! your form is submitted successfully." ))
+				.then(() => {  window.location.reload(); })
+				.catch(error => console.error('Error!', error.message))
+			})
+		  </script>
+
+
 
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/jquery-migrate-3.0.0.min.js"></script>
