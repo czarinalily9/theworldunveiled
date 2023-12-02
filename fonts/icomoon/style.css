@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?qkyedi');
-  src:  url('fonts/icomoon.eot?qkyedi#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?qkyedi') format('truetype'),
-    url('fonts/icomoon.woff?qkyedi') format('woff'),
-    url('fonts/icomoon.svg?qkyedi#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?pvl6q6');
+  src:  url('fonts/icomoon.eot?pvl6q6#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?pvl6q6') format('truetype'),
+    url('fonts/icomoon.woff?pvl6q6') format('woff'),
+    url('fonts/icomoon.svg?pvl6q6#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -13,6 +13,7 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -27,26 +28,8 @@
 .icon-tiktok:before {
   content: "\e900";
 }
-.icon-newspaper:before {
-  content: "\e904";
-}
-.icon-paste:before {
-  content: "\e92d";
-}
-.icon-envelop:before {
-  content: "\e945";
-}
-.icon-users:before {
-  content: "\e972";
-}
 .icon-bookmark:before {
   content: "\e9d2";
-}
-.icon-arrow-right2:before {
-  content: "\ea3c";
-}
-.icon-arrow-down2:before {
-  content: "\ea3e";
 }
 .icon-facebook:before {
   content: "\ea90";
@@ -54,15 +37,6 @@
 .icon-instagram:before {
   content: "\ea92";
 }
-.icon-telegram:before {
-  content: "\ea95";
-}
 .icon-twitter:before {
   content: "\ea96";
-}
-.icon-reddit:before {
-  content: "\eac6";
-}
-.icon-pinterest:before {
-  content: "\ead1";
 }
