@@ -9161,16 +9161,16 @@ a {
           padding: 50px 0; } }    
     
 .heading-2 {
-  font-size: 90px;
+  font-size: 100px;
   font-weight: 700;
   line-height: 1;
   font-family: 'Playfair Display', serif; }
   @media (max-width: 991.98px) {
     .heading-2 {
-      font-size: 60px; } }
+      font-size: 90px; } }
   @media (max-width: 991.98px) {
     .heading-2 {
-      font-size: 40px; } }
+      font-size: 60px; } }
 
 .heading {
   font-size: 80px;
