@@ -1746,7 +1746,7 @@ progress {
 
  .custom-pagination li {
       display: inline-block;
-      margin-top: 60px;
+      margin-top: 30px;
     }
       .custom-pagination li a {
         width: 40px;
@@ -1755,6 +1755,7 @@ progress {
         border-radius: 50%;
         line-height: 40px;
         text-align: center;
+        color:#ffffff;
         border: 1px solid rgba(255, 255, 255, 0.2); }
         .custom-pagination li a:hover {
           border: 1px solid #ffffff; }
@@ -9125,13 +9126,20 @@ a {
       .hero-2, .hero-2 > .container > .row {
         height: 100vh;
         min-height: 670px; }
-      .hero-2 h1, .hero-2 .h1 {
+      .hero-2 h1, .hero-2 .h1{
         font-size: 50px;
         color: #fff;
         font-weight: bold; }
         @media (max-width: 767.98px) {
           .hero-2 h1, .hero-2 .h1 {
             font-size: 60px; } }
+
+            .site-cover-2 {
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center center;
+              background-attachment: fixed; }
+      
 
     .site-section, .section, .section-2, .section-4 {
       margin-top: 30px;
@@ -9654,13 +9662,6 @@ a {
     height: 1px;
     background-color: #000000; }
 
-    .line1 {
-      width: 50px;
-      height: 1px;
-      background: #fff;
-      margin-bottom: 10px; }
-
-
 .service {
   overflow: hidden;
   border-radius: 0px;
@@ -9788,16 +9789,14 @@ a {
 
 
     .article {
-      margin-top: 30px;
       margin-bottom: 90px;}
       @media (max-width: 991.98px) {
         .article {
           margin-bottom: 50px; } }
-      .article .share {
-        top: 20px; }
-        .article .share h3 {
+        .article h3 {
+          margin-top: 30px;
           font-family: "Playfair Display", serif;
-          font-size: 12px; }
+          font-size: 30px; }
           @media (max-width: 991.98px) {
             .article .share h3 {
               display: inline-block; } }
