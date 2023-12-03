@@ -9136,8 +9136,7 @@ a {
       
 
     .site-section, .section, .section-2, .section-4 {
-      margin-top: 30px;
-      padding: 100px 0; }
+      padding: 50px 0; }
       @media (max-width: 991.98px) {
         .site-section, .section, .section-2, .section-4 {
           padding: 50px 0; } }    
