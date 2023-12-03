@@ -35,7 +35,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-font-sans-serif: "Playfair Display", sans-serif;
+  --bs-font-sans-serif: "Jost", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)); }
 
@@ -8710,7 +8710,7 @@ textarea.form-control-lg {
 .site-nav {
   padding-top: 20px;
   padding-bottom: 20px;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Jost", sans-serif; }
   .site-nav h1, .site-nav .h1 {
     margin: 0;
     padding: 0;
@@ -9093,7 +9093,7 @@ textarea.form-control-lg {
   outline: none; }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 300;
   overflow-x: hidden;
   font-size: 16px;
@@ -9185,7 +9185,7 @@ a {
   font-weight: 700; }
 
 .btn {
-  font-family: "Roboto", sans-serif;
+  font-family: "Jost", sans-serif;
   border-radius: 0;
   padding: 14px 30px; }
   .btn:hover, .btn:active, .btn:focus {
