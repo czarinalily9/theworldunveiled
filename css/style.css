@@ -9662,6 +9662,24 @@ a {
     height: 1px;
     background-color: #000000; }
 
+    .service-2 .image {
+      margin-right: 20px; }
+      .service-2 .image img {
+        width: 180px;
+        border-radius: 8px; }
+    
+    .service-2 .text *:last-child {
+      margin-bottom: 0; }
+    
+    .service-2 .text h2 {
+      font-size: 16px;
+      font-weight: bold; }
+    
+    .service-2 .text p {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 1.2; }
+
 .service {
   overflow: hidden;
   border-radius: 0px;
