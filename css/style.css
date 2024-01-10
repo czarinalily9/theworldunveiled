@@ -176,16 +176,6 @@ sub {
 sup {
   top: -.5em; }
 
-a {
-  color: #ff4c4c;
-  text-decoration: underline; }
-  a:hover {
-    color: #cc3d3d; }
-
-a:not([href]):not([class]), a:not([href]):not([class]):hover {
-  color: inherit;
-  text-decoration: none; }
-
 pre,
 code,
 kbd,
@@ -9174,7 +9164,7 @@ a {
 .section {
   padding-top: 7rem;
   padding-bottom: 7rem; }
-
+  
 .number {
   font-size: 70px;
   font-weight: 700; }
@@ -9696,13 +9686,6 @@ a {
     background-color: #fff;
     z-index: 2;
     position: relative; }
-  .service .service-img {
-    background-color: #000;
-    z-index: 1;
-    position: relative;
-    -webkit-transition: .3s all ease;
-    -o-transition: .3s all ease;
-    transition: .3s all ease; }
   .service p {
     color: #52565e; }
 
