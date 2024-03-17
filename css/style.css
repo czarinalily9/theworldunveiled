@@ -7383,7 +7383,7 @@ textarea.form-control-lg {
     float: none !important; }
   .d-lg-inline {
     display: inline !important; }
-  .site-nav {
+  .d-lg-inline-block {
     display: inline-block !important; }
   .d-lg-block {
     display: block !important; }
@@ -8708,12 +8708,10 @@ textarea.form-control-lg {
     .logo a {
       color: #000; }
 
-
-      
 .site-nav {
   position: absolute;
   top: 0;
-  z-index: 1000;
+  z-index: 9;
   width: 100%; }
 
 .site-nav {
